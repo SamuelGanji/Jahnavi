@@ -1,0 +1,42 @@
+.ok{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background: rgba(0,0,0,0.9);
+    border-radius: 25px;
+    text-align: center;
+}
+.ok input[type="text"],
+.ok input[type="password"]{
+    background: burlywood;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+.ok input[type="submit"]{
+    display: block;
+    background: rgb(165, 159, 159);
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 135px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.25px;
+    font-family: 'Georgia' ;
+}
+.ok input[type=submit]:hover{
+    background: blueviolet;
+}
+body{
+    background: url(j2.jpg);
+    background-size: cover;
+}

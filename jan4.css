@@ -1,0 +1,66 @@
+body{
+    background:url(janu7.jpg);
+    background-size: cover;
+}
+.hap{
+    color: aliceblue;
+    background: rgb(0,0,0,0.2);
+    margin-top: 20px;
+    height: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    font-family: algerian;
+}
+#pic1{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 180px;
+    border: 50px;
+}
+#pic2{
+    height: 300px;
+    width: 180px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 270px;
+}
+#pic3{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+#pic4{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 420px;
+}
+#pic5{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 270px;
+}
+.hap1{
+    color: aliceblue;
+    background: rgb(0,0,0,0.4);
+    margin-top: 20px;
+    height: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    font-family: algerian;
+}
+img:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+    height: 100px;
+    width: 100px;
+}
